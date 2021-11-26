@@ -1,0 +1,10 @@
+Q: На основании каких данных AppsFlyer присваивает свой Appsflyer-device-id?
+Это происходит на стороне клиента. Сервер получает и работает с уже готовым appsflyer-device-id
+
+Q: Из каких источников мы получаем данные о геолокации на основании ip-адреса?
+Для определия геолокации по ip используется сторонняя библиотека com.maxmind.geoip2. Сайт - https://www.maxmind.com/en/geoip2-databases.
+
+Перечни данных, которые получат аналитические сервисы AppsFlyer, Firebase, Facebook, Вайзорлитика
+Со стороны сервера данные отправляются в Appsflyer, Facebook и Vizorlyrics. В Firebase данные отправляются на клиентской стороне.
+Данные, которые отправляются в Appsflyer и Facebook -  Appsflyer&Facebook
+Данные, которые отправляются в Vizorlytics  - Vizorlytics
